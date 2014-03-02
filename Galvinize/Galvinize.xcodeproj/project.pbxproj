@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9F07428168DF50E00FBFE7B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9F07427168DF50E00FBFE7B /* main.cpp */; };
+		D9F0742A168DF50E00FBFE7B /* Galvinize.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D9F07429168DF50E00FBFE7B /* Galvinize.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D9F07421168DF50E00FBFE7B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				D9F0742A168DF50E00FBFE7B /* Galvinize.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D9F07423168DF50E00FBFE7B /* Galvinize */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Galvinize; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F07427168DF50E00FBFE7B /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D9F07429168DF50E00FBFE7B /* Galvinize.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Galvinize.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9F07420168DF50E00FBFE7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9F07418168DF50E00FBFE7B = {
+			isa = PBXGroup;
+			children = (
+				D9F07426168DF50E00FBFE7B /* Galvinize */,
+				D9F07424168DF50E00FBFE7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9F07424168DF50E00FBFE7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9F07423168DF50E00FBFE7B /* Galvinize */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9F07426168DF50E00FBFE7B /* Galvinize */ = {
+			isa = PBXGroup;
+			children = (
+				D9F07427168DF50E00FBFE7B /* main.cpp */,
+				D9F07429168DF50E00FBFE7B /* Galvinize.1 */,
+			);
+			path = Galvinize;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9F07422168DF50E00FBFE7B /* Galvinize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9F0742D168DF50E00FBFE7B /* Build configuration list for PBXNativeTarget "Galvinize" */;
+			buildPhases = (
+				D9F0741F168DF50E00FBFE7B /* Sources */,
+				D9F07420168DF50E00FBFE7B /* Frameworks */,
+				D9F07421168DF50E00FBFE7B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Galvinize;
+			productName = Galvinize;
+			productReference = D9F07423168DF50E00FBFE7B /* Galvinize */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9F0741A168DF50E00FBFE7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Matthew Hall";
+			};
+			buildConfigurationList = D9F0741D168DF50E00FBFE7B /* Build configuration list for PBXProject "Galvinize" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9F07418168DF50E00FBFE7B;
+			productRefGroup = D9F07424168DF50E00FBFE7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9F07422168DF50E00FBFE7B /* Galvinize */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9F0741F168DF50E00FBFE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F07428168DF50E00FBFE7B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D9F0742B168DF50E00FBFE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.7;
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		D9F0742C168DF50E00FBFE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx10.7;
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+		D9F0742E168DF50E00FBFE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = /Users/mhall/work/third_party/boost;
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/mhall/work/third_party/boost/bin.v2/libs/serialization/build/darwin-4.2/release/address-model-32/architecture-x86/link-static/macosx-version-min-10.5/macosx-version-10.5/threading-multi",
+					"/Users/mhall/work/third_party/boost/bin.v2/libs/system/build/darwin-4.2/release/address-model-32/link-static/threading-multi",
+					"/Users/mhall/work/third_party/boost/bin.v2/libs/iostreams/build/darwin-4.2/release/address-model-32/link-static/macosx-version-10.5/threading-multi",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lboost_iostreams",
+					"-lboost_system",
+					"-lboost_serialization",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		D9F0742F168DF50E00FBFE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = /Users/mhall/work/third_party/boost;
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/mhall/work/third_party/boost/bin.v2/libs/serialization/build/darwin-4.2/release/address-model-32/architecture-x86/link-static/macosx-version-min-10.5/macosx-version-10.5/threading-multi",
+					"/Users/mhall/work/third_party/boost/bin.v2/libs/system/build/darwin-4.2/release/address-model-32/link-static/threading-multi",
+					"/Users/mhall/work/third_party/boost/bin.v2/libs/iostreams/build/darwin-4.2/release/address-model-32/link-static/macosx-version-10.5/threading-multi",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lboost_iostreams",
+					"-lboost_system",
+					"-lboost_serialization",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9F0741D168DF50E00FBFE7B /* Build configuration list for PBXProject "Galvinize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F0742B168DF50E00FBFE7B /* Debug */,
+				D9F0742C168DF50E00FBFE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9F0742D168DF50E00FBFE7B /* Build configuration list for PBXNativeTarget "Galvinize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F0742E168DF50E00FBFE7B /* Debug */,
+				D9F0742F168DF50E00FBFE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9F0741A168DF50E00FBFE7B /* Project object */;
+}
